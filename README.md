@@ -1,4 +1,11 @@
-首先这个是针对Android的解决方案
-暂时不会对IOS支持
-因为RN对IOS的支持更友好相比Android
-
+##项目结构
+```
+project
+├──android
+├──ios
+├──README.md
+├──app.json
+├──index.android.js
+├──index.ios.js
+└──package.json
+```
