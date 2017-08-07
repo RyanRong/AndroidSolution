@@ -133,9 +133,30 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: "libs", include: ["*.jar"])
-    compile "com.android.support:appcompat-v7:23.0.1"
-    compile "com.facebook.react:react-native:+"  // From node_modules
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.facebook.react:react-native:+'
+    // From node_modules
+    compile files('libs/Amap_2DMap_V4.2.0_20170209.jar')
+    compile files('libs/AMap_Location_V3.3.0_20170118.jar')
+    compile files('libs/AMap_Search_V5.0.0_20170309.jar')
+    compile files('libs/jcore-android_v1.1.2.jar')
+    compile files('libs/jpush-android_v3.0.5.jar')
+    compile files('libs/libapshare.jar')
+    compile files('libs/open_sdk_r5781.jar')
+    compile files('libs/SocialSDK_QQ_Full.jar')
+    compile files('libs/SocialSDK_Sina_Full.jar')
+    compile files('libs/SocialSDK_WeiXin_Full.jar')
+    compile files('libs/umeng_shareboard_widget.jar')
+    compile files('libs/umeng_social_api.jar')
+    compile files('libs/umeng_social_net.jar')
+    compile files('libs/umeng_social_shareboard.jar')
+    compile files('libs/umeng_social_shareview.jar')
+    compile files('libs/umeng_social_tool.jar')
+    compile files('libs/wechat-sdk-android-with-mta-1.0.2.jar')
+    compile files('libs/weiboSDKCore_3.1.4.jar')
+    compile 'com.umeng.analytics:analytics:latest.integration'
+
 }
 
 // Run this once to be able to run the application with BUCK
