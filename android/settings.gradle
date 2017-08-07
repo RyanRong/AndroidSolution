@@ -1,0 +1,3 @@
+rootProject.name = 'AndroidSolution'
+
+include ':app'
